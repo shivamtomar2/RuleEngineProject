@@ -21,22 +21,21 @@ This project is a simple rule engine built using Flask and MongoDB. It allows us
 1. Clone the repository:
    ```bash
    git clone https://github.com/shivamtomar2/RuleEngineProject.git
-Navigate to the project directory:
---cd RuleEngineProject
+2.Navigate to the project directory: cd RuleEngineProject
 
-Create a virtual environment (optional but recommended):
---python -m venv env
---source env/bin/activate  # For Mac/Linux
+3.Create a virtual environment (optional but recommended):
+python -m venv env
+source env/bin/activate  # For Mac/Linux
 
-Install the required packages:
---pip install -r requirements.txt
+4.Install the required packages:
+pip install -r requirements.txt
 
-Usage
+5.Usage
 Start the MongoDB server if it’s not already running:
---mongod
+mongod
 
-Run the Flask application:
---python app.py
+6.Run the Flask application:
+python app.py
 
 The application will be running at http://127.0.0.1:5000.
 
